@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+    <head>
+        <title>Architecture River</title>
+        <dateModified>Tue, 13 Oct 2015 15:35:38 GMT</dateModified>
+        <expansionState></expansionState>
+        <lastCursor>2</lastCursor>
+        <flEncrypted>false</flEncrypted>
+        <linkPublicUrl>https://dl.dropbox.com/s/0en7ktq7ycak7u8/architectureRiver.opml?dl=0</linkPublicUrl>
+    </head>
+    <body>
+        <outline text="" type="rss" xmlUrl="http://feeds.feedburner.com/ArchDaily?format=xml"/>
+        <outline text="" created="Mon, 12 Oct 2015 16:45:33 GMT" type="rss" xmlUrl="http://archinect.com/news.xml"/>
+        <outline text="" created="Mon, 12 Oct 2015 16:45:54 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/dezeen"/>
+    </body>
+</opml>

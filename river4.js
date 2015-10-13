@@ -32,6 +32,7 @@ var md5 = require ("MD5");
 var OpmlParser = require ("opmlparser");
 var FeedParser = require ("feedparser");
 var request = require ("request");
+var ineed = require ("ineed");
 var urlpack = require ("url");
 var util = require ("util");
 var fs = require ("fs");
@@ -445,6 +446,7 @@ function buildOneRiver (listname, flSave, flSkipDuplicateTitles, flAddJsonpWrapp
 								theItem.title = story.title;
 								theItem.link = story.link;
 								theItem.body = story.description;
+								theItem.image = story.image;
 								
 								if (story.outline != undefined) { //7/16/14 by DW
 									theItem.outline = story.outline;
@@ -886,6 +888,9 @@ function addToRiver (urlfeed, itemFromParser, callback) {
 			if (itemFromParser ["source:outline"] != undefined) { //they're using a cool feature! :-)
 				item.outline = newConvertOutline (itemFromParser ["source:outline"]);
 				}
+		//image
+		item.image =  ineed.collect.images.fromHtml(item.description).images[0];
+
 		item.pubdate = getDate (itemFromParser.pubDate);
 		item.comments = getString (itemFromParser.comments);
 		item.feedUrl = urlfeed;
