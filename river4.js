@@ -889,7 +889,7 @@ function addToRiver (urlfeed, itemFromParser, callback) {
 				item.outline = newConvertOutline (itemFromParser ["source:outline"]);
 				}
 		//image
-		item.image =  ineed.collect.images.fromHtml(item.description).images[0];
+		item.image =  ineed.collect.images.fromHtml(itemFromParser.description).images[0];
 
 		item.pubdate = getDate (itemFromParser.pubDate);
 		item.comments = getString (itemFromParser.comments);
