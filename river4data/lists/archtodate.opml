@@ -11,6 +11,18 @@
     <body>
         <outline text="" type="rss" xmlUrl="http://feeds.feedburner.com/ArchDaily?format=xml"/>
         <outline text="" created="Mon, 12 Oct 2015 16:45:33 GMT" type="rss" xmlUrl="http://archinect.com/news.xml"/>
-        <outline text="" created="Mon, 12 Oct 2015 16:45:54 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/dezeen"/>
+        <outline text="" created="Mon, 12 Oct 2015 16:45:54 GMT" type="rss" xmlUrl="http://archidose.blogspot.com/feeds/posts/default"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:17:04 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/dezeen"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:17:30 GMT" type="rss" xmlUrl="http://www.designboom.com/weblog/rss.php"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:17:55 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/FreshInspirationForYourHome"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:18:09 GMT" type="rss" xmlUrl="http://architizer.com/blog/feed/"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:34:47 GMT" type="rss" xmlUrl="http://www.designboom.com/weblog/rss.php"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:34:47 GMT" type="rss" xmlUrl="http://www.archello.com/en/rss/all"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:39:55 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/contemporist"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:39:55 GMT" type="rss" xmlUrl="http://archrecord.construction.com/"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:39:55 GMT" type="rss" xmlUrl="http://www.notcot.org/atom.php"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:39:55 GMT" type="rss" xmlUrl="http://www.metropolismag.com/rss.xml"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:45:21 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/design-milk"/>
+        <outline text="" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/buildllc/FSsW"/>
     </body>
 </opml>

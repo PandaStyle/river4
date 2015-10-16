@@ -1835,7 +1835,7 @@ function rssCloudFeedUpdated (urlFeed) { //6/4/15 by DW
 			for (var i = 0; i < feedstats.lists.length; i++) {
 				var listname = "\"" + feedstats.lists [i] + "\"";
 				var flskip = serverData.prefs.flSkipDuplicateTitles;
-				var s = "buildOneRiver (" + listname + ", true, " + flskip + ", true);";
+				var s = "buildOneRiver (" + listname + ", true, " + flskip + ", false);";
 				console.log ("rssCloudFeedUpdated: " + s);
 				qAddTask (s);
 				}
@@ -1879,7 +1879,7 @@ function buildAllRivers () { //queue up tasks to build each of the river.js file
 	for (var i = 0; i < serverData.stats.listNames.length; i++) { 
 		var listname = "\"" + serverData.stats.listNames [i] + "\"";
 		var flskip = serverData.prefs.flSkipDuplicateTitles;
-		var s = "buildOneRiver (" + listname + ", true, " + flskip + ", true);";
+		var s = "buildOneRiver (" + listname + ", true, " + flskip + ", false);";
 		qAddTask (s);
 		}
 	whenLastRiversBuild = new Date (); //8/6/14 by DW
@@ -2121,6 +2121,12 @@ function handleRequest (httpRequest, httpResponse) {
 						getOneRiver (parsedUrl.query.fname, function (s) {
 							httpResponse.end (s);    
 							});
+						break;
+					case "/getoneriverjson": //11/28/14 by DW
+						httpResponse.writeHead (200, {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"});
+						getOneRiver (parsedUrl.query.fname, function (s) {
+							httpResponse.end (s);
+						});
 						break;
 					case "/getfeedmeta": //12/1/14 by DW -- for the list editor, just get the metadata about the feed
 						httpResponse.writeHead (200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
