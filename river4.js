@@ -458,29 +458,17 @@ function buildOneRiver (listname, flSave, flSkipDuplicateTitles, flAddJsonpWrapp
 									theItem.comments = story.comments;
 									}
 								//enclosure -- 5/30/14 by DW
-									if (story.enclosure != undefined) {
-										var flgood = true;
-										
-										if ((story.enclosure.type == undefined) || (story.enclosure.length === undefined)) { //both are required
-											flgood = false; //sorry! :-(
-											}
-										else {
-											if (utils.stringCountFields (story.enclosure.type, "/") < 2) { //something like "image" -- not a valid type
-												flgood = false; //we read the spec, did you? :-)
-												}
-											}
-										
-										if (flgood) {
-											theItem.enclosure = [story.enclosure];
-											}
-										}
+                                if (story.enclosure != undefined) {
+                                        theItem.enclosure = [story.enclosure];
+                                    }
 								//id
-									if (story.id == undefined) {
-										theItem.id = "";
-										}
-									else {
-										theItem.id = utils.padWithZeros (story.id, 7);
-										}
+                                if (story.id == undefined) {
+                                    theItem.id = "";
+                                    }
+                                else {
+                                    theItem.id = utils.padWithZeros (story.id, 7);
+                                    }
+
 								if (++ctitems >= serverData.prefs.maxRiverItems) {
 									flEndOfSource = true;
 									break;
@@ -882,8 +870,14 @@ function addToRiver (urlfeed, itemFromParser, callback) {
 			
 		//enclosure -- 5/30/14 by DW
 			if (itemFromParser.enclosures != undefined) { //it's an array, we want the first one
-				item.enclosure = itemFromParser.enclosures [0];
+				item.enclosure = itemFromParser.enclosures[0];
 				}
+
+		// enclosure in single
+			if (itemFromParser.enclosure != undefined) { //it's an array, we want the first one
+				item.enclosure = itemFromParser.enclosure;
+			}
+
 		//source:outline -- 7/16/14 by DW
 			if (itemFromParser ["source:outline"] != undefined) { //they're using a cool feature! :-)
 				item.outline = newConvertOutline (itemFromParser ["source:outline"]);
