@@ -9,7 +9,7 @@
         <linkPublicUrl>https://dl.dropbox.com/s/0en7ktq7ycak7u8/architectureRiver.opml?dl=0</linkPublicUrl>
     </head>
     <body>
-        <outline text="" type="rss" xmlUrl="http://feeds.feedburner.com/ArchDaily?format=xml"/>
+        <outline text="Archdaily" type="rss" xmlUrl="http://feeds.feedburner.com/ArchDaily?format=xml"/>
         <outline text="" created="Mon, 12 Oct 2015 16:45:33 GMT" type="rss" xmlUrl="http://archinect.com/news.xml"/>
         <outline text="" created="Mon, 12 Oct 2015 16:45:54 GMT" type="rss" xmlUrl="http://archidose.blogspot.com/feeds/posts/default"/>
         <outline text="" created="Fri, 16 Oct 2015 20:17:04 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/dezeen"/>
@@ -21,8 +21,10 @@
         <outline text="" created="Fri, 16 Oct 2015 20:39:55 GMT" type="rss" xmlUrl="http://archrecord.construction.com/"/>
         <outline text="" created="Fri, 16 Oct 2015 20:39:55 GMT" type="rss" xmlUrl="http://www.notcot.org/atom.php"/>
         <outline text="" created="Fri, 16 Oct 2015 20:39:55 GMT" type="rss" xmlUrl="http://www.metropolismag.com/rss.xml"/>
-        <outline text="" created="Fri, 16 Oct 2015 20:45:21 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/design-milk"/>
+        <outline text="Design Milk" created="Fri, 16 Oct 2015 20:45:21 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/design-milk"/>
         <outline text="" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/buildllc/FSsW"/>
         <outline text="" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://curbed.com/atom.xml"/>
+        <outline text="Abduzeedo" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://abduzeedo.com/taxonomy/term/12461/all/feed"/>
+        <outline text="Web Urbanist" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://weburbanist.com/category/architecture/feed/"/>
     </body>
 </opml>
