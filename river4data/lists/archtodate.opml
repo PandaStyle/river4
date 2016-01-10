@@ -26,5 +26,8 @@
         <outline text="Abduzeedo" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://abduzeedo.com/taxonomy/term/12461/all/feed"/>
         <outline text="Web Urbanist" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://weburbanist.com/category/architecture/feed/"/>
         <outline text="Landezine" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://www.landezine.com/index.php/feed/"/>
+        <outline text="Bustler" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://www.bustler.net/index.php/news_atom/"/>
+        <outline text="Bldgblog" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://www.bldgblog.com/feed/"/>
+        <outline text="Socks" created="Fri, 16 Oct 2015 20:45:22 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/socks-studio?format=xml"/>
     </body>
 </opml>
