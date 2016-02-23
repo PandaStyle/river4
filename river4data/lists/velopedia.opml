@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+    <head>
+        <title>Velopedia</title>
+        <dateModified>Tue, 23 Feb 2016 23:41:40 GMT</dateModified>
+        <lastCursor>4</lastCursor>
+        <flEncrypted>false</flEncrypted>
+        <flCmsRender>false</flCmsRender>
+        <flCmsRenderInBackground>false</flCmsRenderInBackground>
+        <feed>rss.xml</feed>
+    </head>
+    <body>
+        <outline text="" type="rss" xmlUrl="http://feeds.feedburner.com/cyclingnews/news?format=xml"/>
+        <outline text="" created="Tue, 23 Feb 2016 23:39:43 GMT" type="rss" xmlUrl="http://feeds.feedburner.com/cyclingtipsblog/TJog?format=xml"/>
+        <outline text="" created="Tue, 23 Feb 2016 23:39:44 GMT" type="rss" xmlUrl="http://road.cc/all/feed"/>
+        <outline text="" created="Tue, 23 Feb 2016 23:40:14 GMT" type="rss" xmlUrl="http://feeds2.feedburner.com/roadcycling/ZlDv"/>
+        <outline text="" created="Tue, 23 Feb 2016 23:40:14 GMT" type="rss" xmlUrl="http://roadbikeaction.com/feed"/>
+    </body>
+</opml>
