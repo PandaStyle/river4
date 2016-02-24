@@ -2117,8 +2117,14 @@ function handleRequest (httpRequest, httpResponse) {
 							});
 						break;
 					case "/getoneriverjson": //11/28/14 by DW
-						httpResponse.writeHead (200, {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"});
+						httpResponse.writeHead (200, {"Content-Type": "application/json"});
 						getOneRiver (parsedUrl.query.fname, function (s) {
+							httpResponse.end (s);
+						});
+						break;
+					case "/getfeed": //11/28/14 by DW
+						httpResponse.writeHead (200, {"Content-Type": "application/json"});
+						getOneRiver ("velopedia.js", function (s) {
 							httpResponse.end (s);
 						});
 						break;
