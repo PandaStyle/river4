@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node river4.js"
   },
+  "main": "river.js",
   "dependencies": {
     "MD5": "*",
     "aws-sdk": "*",
