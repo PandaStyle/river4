@@ -2126,6 +2126,7 @@ function handleRequest (httpRequest, httpResponse) {
 						httpResponse.writeHead (200, {"Content-Type": "application/json"});
 						getOneRiver ("velopedia.js", function (s) {
 							httpResponse.end (s);
+
 						});
 						break;
 					case "/getfeedmeta": //12/1/14 by DW -- for the list editor, just get the metadata about the feed
