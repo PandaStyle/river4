@@ -450,6 +450,7 @@ function buildOneRiver (listname, flSave, flSkipDuplicateTitles, flAddJsonpWrapp
 								theItem.body = story.description;
 								theItem.image = story.image;
 
+								theItem.imageFromMeta = story.imageFromMeta;
 								if (story.outline != undefined) { //7/16/14 by DW
 									theItem.outline = story.outline;
 									}
@@ -885,6 +886,8 @@ function addToRiver (urlfeed, itemFromParser, callback) {
 				item.outline = newConvertOutline (itemFromParser ["source:outline"]);
 				}
 		//image
+		item.imageFromMeta = itemFromParser.imageFromMetaInspector;
+
 		item.image =  ineed.collect.images.fromHtml(itemFromParser.description).images[0];
 
 		item.pubdate = getDate (itemFromParser.pubDate);
