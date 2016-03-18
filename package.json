@@ -13,6 +13,7 @@
     "aws-sdk": "*",
     "feedparser": "*",
     "ineed": "^1.0.4",
+    "node-metainspector": "^1.2.0",
     "opmlparser": "*",
     "request": "*"
   },
