@@ -1414,9 +1414,6 @@ function readFeed (urlfeed, callback) {
 
 				client.on("fetch", function(){
 					item.imageFromMetaInspector = client.image;
-					console.log('--------');
-					console.log("image form MetaInspector: " + client.image);
-					console.log('--------');
 
 					if (new Date (item.pubDate) > new Date (feed.stats.mostRecentPubDate)) {
 						feed.stats.mostRecentPubDate = item.pubDate;
